@@ -1,4 +1,5 @@
 import Banner from "./components/banner";
+import Category from "./components/category";
 import Header from "./components/header";
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <>
     <Header />
     <Banner />
+    <Category />
     </>
    );
 }
