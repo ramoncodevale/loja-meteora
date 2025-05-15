@@ -1,22 +1,22 @@
 export const cards = [
     {
         id: 1,
-        img: "/camiseta.png",
+        img: "/camiseta-categoria.png",
         name: "Camisetas",
     },
     {
         id: 2,
-        img: "/bolsa.png",
+        img: "/bolsa-categoria.png",
         name: "Bolsas",
     },
     {
         id: 3,
-        img: "/calçados.png",
+        img: "/calçados-categoria.png",
         name: "Calçados",
     },
     {
         id: 4,
-        img: "/calças.png",
+        img: "/calças-categoria.png",
         name: "Calças",
     },
     {
@@ -28,5 +28,50 @@ export const cards = [
         id: 6,
         img: "/oculos.png",
         name: "Óculos",
+    },
+]
+
+export const products = [
+    {
+        id: 1,
+        img: "/camiseta-produto.png",
+        name: "Camiseta Conforto",
+        description: "Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.",
+        price: "R$ 70,00"
+    },
+     {
+        id: 2,
+        img: "/calça-produto.png",
+        name: "Calça Alfaiataria",
+        description: "Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!",
+        price: "R$ 180,00"
+    },
+     {
+        id: 3,
+        img: "/tenis-produto.png",
+        name: "Tênis Chunky",
+        description: "Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.",
+        price: "R$ 250,00"
+    },
+    {
+        id: 4,
+        img: "/jaqueta-produto.png",
+        name: "Jaqueta Jeans",
+        description: "Modelo unissex oversized com gola de camurça. Atemporal e autêntica!",
+        price: "R$ 150,00"
+    },
+    {
+        id: 5,
+        img: "/óculos-produto.png",
+        name: "Óculos Redondo",
+        description: "Armação metálica em grafite com lentes arredondadas. Sem erro!",
+        price: "R$ 120,00"
+    },
+    {
+        id: 6,
+        img: "/bolsa-coringa.png",
+        name: "Bolsa coringa",
+        description: "Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!",
+        price: "R$ 120,00"
     },
 ]

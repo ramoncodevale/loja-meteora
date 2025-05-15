@@ -1,6 +1,7 @@
 import Banner from "./components/banner";
 import Category from "./components/category";
 import Header from "./components/header";
+import Products from "./components/products";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
     <Header />
     <Banner />
     <Category />
+    <Products />
     </>
    );
 }
