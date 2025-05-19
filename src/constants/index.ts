@@ -75,3 +75,24 @@ export const products = [
         price: "R$ 120,00"
     },
 ]
+
+export const networks = [ 
+    {
+        id: 1,
+        img: "/x-diamond.png",
+        name: "PAGUE PELO PIX",
+        description: "Ganhe 5% OFF em pagamento via PIX",
+    },
+     {
+        id: 2,
+        img: "/arrow-repeat.png",
+        name: "TROCA GRÁTIS",
+        description: "Fique livre para trocar em até 30 dias",
+    },
+     {
+        id: 3,
+        img: "/flower1.png",
+        name: "SUSTENTABILIDADE",
+        description: "Moda responsável, que respeita a meio  ambiente",
+    },
+]

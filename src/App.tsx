@@ -1,6 +1,7 @@
 import Banner from "./components/banner";
 import Category from "./components/category";
 import Header from "./components/header";
+import Networks from "./components/networks";
 import Products from "./components/products";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
     <Banner />
     <Category />
     <Products />
+    <Networks />
     </>
    );
 }
