@@ -1,5 +1,6 @@
 import Banner from "./components/banner";
 import Category from "./components/category";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Input from "./components/input";
 import Networks from "./components/networks";
@@ -14,6 +15,7 @@ const App = () => {
     <Products />
     <Networks />
     <Input />
+    <Footer />
     </>
    );
 }
