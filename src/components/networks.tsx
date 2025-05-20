@@ -10,10 +10,12 @@ const Networks = () => {
     </h2>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
       {networks.map((network) => (
-        <div key={network.id} className="text-white">
+        <div key={network.id} className="flex justify-center items-center ">
           <img src={network.img} alt={network.name} className="mb-4" />
-          <p className="font-bold text-[#DAFF01]">{network.name}</p>
+          <div className="flex flex-col pl-6"> 
+          <h6 className="font-bold text-[#DAFF01]">{network.name}</h6>
           <p className="text-[13px] text-white mt-4">{network.description}</p>
+          </div>
         </div>
       ))}
     </div>
