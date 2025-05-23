@@ -1,5 +1,6 @@
 import Banner from "./components/banner";
 import Category from "./components/category";
+import DetaisProducts from "./components/details-products";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import Input from "./components/input";
@@ -15,6 +16,7 @@ const App = () => {
     <Products />
     <Networks />
     <Input />
+    <DetaisProducts  onClose={()=> setShowModal(false)}/>
     <Footer />
     </>
    );
