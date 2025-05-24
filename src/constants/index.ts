@@ -31,6 +31,21 @@ export const cards = [
     },
 ]
 
+export const banner = [
+    {
+        id: 1,
+        img: "/banner-carrousel-1.png",
+    },
+     {
+        id: 2,
+        img: "/banner-carrousel-2.png",
+    },
+     {
+        id: 3,
+        img: "/banner-carrousel-3.png",
+    },
+]
+
 export const products = [
     {
         id: 1,
