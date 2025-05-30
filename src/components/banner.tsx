@@ -19,7 +19,16 @@ const Banner = () => {
   };
 
   return (
-    <section className="relative w-full">
+     <>
+     <div className="flex justify-center gap-2 mt-6 lg:hidden">
+      <input
+       className="w-[225px] h-[38px] border border-[#6C757D] text-black pl-2" 
+       type="text"
+       placeholder="Digite o produto" />
+      <button className="text-black border-2 border-black w-[88px] h-[37px]">Search</button>
+     </div>
+
+     <section className="relative w-full">
       <Swiper
         modules={[Autoplay, Pagination]}
         onSwiper={(swiper) => (swiperRef.current = swiper)}
@@ -40,10 +49,9 @@ const Banner = () => {
         ))}
       </Swiper>
 
-      {/* Setas customizadas */}
       <button
         onClick={handlePrev}
-        className="absolute top-1/2 left-4 z-10 -translate-y-1/2 bg-black/40 text-white rounded-full p-2 hover:bg-black/70 transition"
+        className="absolute top-1/2 left-4 z-10 -translate-y-1/2 cursor-pointer bg-black/40 text-white rounded-full p-2 hover:bg-black/70 transition"
         aria-label="Anterior"
       >
         <FiChevronLeft size={24} />
@@ -51,12 +59,13 @@ const Banner = () => {
 
       <button
         onClick={handleNext}
-        className="absolute top-1/2 right-4 z-10 -translate-y-1/2 bg-black/40 text-white rounded-full p-2 hover:bg-black/70 transition"
+        className="absolute top-1/2 right-4 z-10 -translate-y-1/2 cursor-pointer bg-black/40 text-white rounded-full p-2 hover:bg-black/70 transition"
         aria-label="Próximo"
       >
         <FiChevronRight size={24} />
       </button>
     </section>
+   </>  
   );
 };
 

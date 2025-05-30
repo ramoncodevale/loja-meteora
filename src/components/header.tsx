@@ -11,7 +11,7 @@ const Header = () => {
   }
 
   return (
-    <nav className="w-full bg-black p-4 relative">
+    <nav className="w-[390px] h-[58px] lg:w-full bg-black p-4 relative">
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-10">
           <img src={Logo} alt="Logo da Meteora" />
