@@ -31,20 +31,51 @@ export const cards = [
     },
 ]
 
+// src/constants/index.ts
 export const banner = [
-    {
-        id: 1,
-        img: "/banner-carrousel-1.png",
-    },
-     {
-        id: 2,
-        img: "/banner-carrousel-2.png",
-    },
-     {
-        id: 3,
-        img: "/banner-carrousel-3.png",
-    },
-]
+  {
+    id: 1,
+    img: "/banner-carrousel-1.png",
+  },
+  {
+    id: 2,
+    img: "/banner-carrousel-2.png",
+  },
+  {
+    id: 3,
+    img: "/banner-carrousel-3.png",
+  },
+];
+
+export const bannerMobile = [
+  {
+    id: 4,
+    img: "/banner-small-1.png",
+  },
+  {
+    id: 5,
+    img: "/banner-small-2.png",
+  },
+  {
+    id: 6,
+    img: "/banner-small-3.png",
+  },
+];
+
+export const bannerTablet = [
+  {
+    id: 7,
+    img: "/banner-medium-1.png",
+  },
+  {
+    id: 8,
+    img: "/banner-medium-2.png",
+  },
+  {
+    id: 9,
+    img: "/banner-medium-3.png",
+  },
+];
 
 export const products = [
     {
